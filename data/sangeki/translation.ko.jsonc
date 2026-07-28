@@ -1,0 +1,347 @@
+{
+  // ---------------------------------------------------------------------------
+  //  Tragedy Looper — ko 번역 · sangeki 각본
+  //  scripts/gen-ko-skeleton.mjs 로 생성. 재생성해도 기존 값은 보존된다.
+  //
+  //  - 키(왼쪽)는 수정 금지
+  //  - { } 플레이스홀더와 :token: 은 그대로 보존
+  //  - 원문에 없는 마크다운 링크 추가 시 번역 전체가 폐기됨
+  //  - 확신 없으면 비워둘 것 (영어로 폴백된다)
+  //  - // ja: 주석은 참고용. 정발은 일본어 5th 기준이라 ja 가 가장 가깝다
+  // ---------------------------------------------------------------------------
+  "$schema": "./translations.schema.json",
+  "translations": {
+    "ko": {
+      // ==== 게임 용어 · 장소 · 타이밍 (짧은 문자열)  (4개) ===============================
+      // ja: たまたま刑事の汚職現場を目撃してしまった女子学生。彼は犯罪組織と裏で繋がっているようです。 刑事は仲間と協力して彼女の口を封じようとその機を伺っています。 警察は助けてくれるかわかりません。 怯える彼女の元へやってきたの…
+      "She's Here.Ryo.Shin..story": "",
+      // ja: 彼女は来た
+      "She's Here.Ryo.Shin..title": "",
+      // ja: 惨劇の世界へようこそ。 あなたが囚われた日々を抜け出す鍵は、学校と、あの清楚で素敵な少女にあります。しかし、揺れ動く心を常に悪意がつけ狙います。 気をつけて。 彼女はあっという間に消えてしまいますから。
+      "Unstable Life.Ryo.Shin..story": "",
+      "Unstable Life.Ryo.Shin..title": "",
+
+      // ==== 능력 · 효과 · 규칙 텍스트 (긴 문장) — 마지막에 작업  (26개) =======================
+      // ja: FSを使った短編作品です。 手先や転校生の挙動が鍵を握ります。 特に難しいギミックやPPは要求しておらず、初心者でも遊びやすい設計にしています。
+      "She's Here.Ryo.Shin..description": "",
+      "She's Here.Ryo.Shin..specialRules": "",
+      // ja: 初心者向けかつ布教に使えるサクッと遊べる短編です。
+      "Unstable Life.Ryo.Shin..description": "",
+      // ja: 第一ループは、刑事に『移動横』、女子学生に『暗躍+2』、異世界人に『移動縦』を置いてキラーの能力で女子学生を殺害します。暗躍禁止をケアするなら、 手先を学校スタートさせ『不安+1』で不安拡大を起こし、クロマクの能力で2個…
+      "She's Here.Ryo.Shin..mastermindHints": "",
+      "Unstable Life.Ryo.Shin..specialRules": "",
+      // ja: 「明日暇？なら会社来れるよね」 「これならChatGPTの方が仕事できるよ」 「今どきの若い子はちょっとさあ…」 「あ、これ頼むよ。3日でできるよね？」 もううんざりだ。 この繰り返す日々を終わりにしましょう。 1日目:…
+      "KILL BOSS: The Looper.Ryo.Shin..story": "",
+      // ja: KILL BOSS : the RoopeR
+      "KILL BOSS: The Looper.Ryo.Shin..title": "",
+      // ja: 脚本家は以下の勝利条件を持ちます。 ①キーパーソンの殺害(キラー、シリアルキラー、遠隔殺人) ②主人公の殺害(キラー)
+      "She's Here.Ryo.Shin..victory-conditions": "",
+      // ja: 手先の初期は学校か学校に隣接するボードがおすすめです。 第一ループは行方不明を発生させ、お嬢様をシリアルキラーに殺させます。アイドルに『移動横』、お嬢様に『不安+1』、ブラフを置き、行方不明でお嬢様を病院に送りつけて勝ち…
+      "Unstable Life.Ryo.Shin..mastermindHints": "",
+      // ja: 脚本家の勝利条件は以下の通りです。 ①キーパーソンの殺害 ②学校に暗躍2(守るべき場所)
+      "Unstable Life.Ryo.Shin..victory-conditions": "",
+      // ja: 病弱な天才が作り出した人工知能。自然言語すら自在に扱うそれは、まさにヒトが作り出した意識を持った存在であった。彼は病弱の身に鞭打ち、開発を進めていた。彼とAIはまさに一心同体ともいえる仲間だった。 しかし、それは同時に世…
+      "From the Nothing, with Love.Ryo.Shin..story": "",
+      // ja: 虚空より愛を込めて
+      "From the Nothing, with Love.Ryo.Shin..title": "",
+      // ja: 社畜TRPG『キルボス』のリスペクトです。 軽く遊べるネタ脚本として作ってあります。
+      "KILL BOSS: The Looper.Ryo.Shin..description": "",
+      // ja: ①キーパーソンのルールを以下の通り変更する。 【常時】このキャラクターは「少女」としても扱う。 【強制:このキャラクターの死亡時】主人公は勝利し、ループを終了する。(同時に敗北条件を満たしても主人公の勝利となる) 【敗北…
+      "KILL BOSS: The Looper.Ryo.Shin..specialRules": "",
+      // ja: 大物を頑張って生存させましょう。 病院から遠く、サラリーマンが入れない学校が安全ではあります。しかし、因果の糸と妄想拡大ウィルスに主人公が気づくと、単独での逃走はかなり危険になります。 第一ループでは、友好禁止と不安禁止…
+      "KILL BOSS: The Looper.Ryo.Shin..mastermindHints": "",
+      // ja: 若者の間で邪悪な教えが静かに広まっていた…若者は次々と心を病ませていく。その犯人のカルト教団は学生を利用した病院のテロをも企んでいる。調査を依頼 された軍人は目的を同じくして出会った異世界人や主人公と協力して、陰謀の阻止…
+      "Heresy Prevails in the Classroom.Ryo.Shin..story": "",
+      // ja: 邪教蔓延る教場
+      "Heresy Prevails in the Classroom.Ryo.Shin..title": "",
+      // ja: AIを活用したギミック突破型脚本。 病院の事件をうまく切り抜けることができるかが鍵。難易度はそれなりに高め。 特殊ルールはバランス調整です。(短編であること、主人公の手を制限してストレスを与えないことを優先した結果です)…
+      "From the Nothing, with Love.Ryo.Shin..description": "",
+      // ja: ①脚本家は『友好禁止』『移動縦』を使えない。 ②手先の初期配置は『都市』で固定である。 ③脚本家はあるキャラクターに暗躍C、不安Cを乗せることができない(主人公行動カード、友好能力による場合は可)。 そのキャラクターは非…
+      "From the Nothing, with Love.Ryo.Shin..specialRules": "",
+      "KILL BOSS: The Looper.Ryo.Shin..victory-conditions": "",
+      // ja: 主人公がギミックに気づかなければ、脚本家はフレンドの入院患者を殺して勝利できます。 病院のギミック 初日は病院に『暗躍+1』、手先に『不安+1』、異世界人か委員長か神社に『暗躍+2』(ルールYのブラフ)を置きます。手先が…
+      "From the Nothing, with Love.Ryo.Shin..mastermindHints": "",
+      // ja: :firstSteps:を使った短編の中難易度脚本を作りたくて作りました。軍人と異世界人の友好能力の使用が鍵になります。 難易度調整は以下の通り。 難易度を下げる場合 ・ループ数を4ループに変更(⭐︎2相当) ・3日目の…
+      "Heresy Prevails in the Classroom.Ryo.Shin..description": "",
+      // ja: 脚本家は『友好禁止』を使えない。 Mastermind can't use "Forbid :goodwill:."
+      "Heresy Prevails in the Classroom.Ryo.Shin..specialRules": "",
+      "From the Nothing, with Love.Ryo.Shin..victory-conditions": "",
+      // ja: 第1ループでは巫女の自殺を狙います。医者に「移動横」、巫女に「不安+1」、お嬢様に「不安+1」を配置し、ミスリーダーの能力で巫女に不安を乗せ勝利します。 第2ループは学校に暗躍2を乗せることを狙います。軍人に「不安+1」…
+      "Heresy Prevails in the Classroom.Ryo.Shin..mastermindHints": "",
+      // ja: 脚本家の勝利条件は以下の通りです。 ①キーパーソン(巫女)の死亡 ②フレンド(軍人)の死亡 ③学校に暗躍2 ④主人公の死亡(病院の事件)
+      "Heresy Prevails in the Classroom.Ryo.Shin..victory-conditions": "",
+
+      // ==== 각본 텍스트 (제목.제작자.필드)  (162개) ======================================
+      // ja: 残された装置と残された死体。未来から移動可能な不可思議物体を遺して、青年は死んだ。 「……だってさ。知らなかったでしょ？ 私が……未来から来たってこと。内緒だよ？」
+      "A Will..比良坂右京.story": "",
+      "A Will..比良坂右京.title": "",
+      // ja: 惨劇Rooperの初級者～中級者に向けた脚本。 どちらかというとPPではなくCS寄り、主人公に対して友好能力の起動の大事さを教える脚本。
+      "A Will..比良坂右京.description": "",
+      "He's a Person.ペンスキー.story": "",
+      // ja: 彼はパーソン
+      "He's a Person.ペンスキー.title": "",
+      "A Hideous Cast.ペンスキー.story": "",
+      // ja: 最低の配役
+      "A Hideous Cast.ペンスキー.title": "",
+      // ja: 脚本家の手札から「友好禁止」を取り除く。 いずれの場合もターンにおいても、このカードを使うことは出来ない。
+      "A Will..比良坂右京.specialRules": "",
+      "Scathing Report.ペンスキー.story": "",
+      // ja: 悪辣なる報道
+      "Scathing Report.ペンスキー.title": "",
+      "The Academy Tragedy.れう.story": "",
+      // ja: 学園の惨劇
+      "The Academy Tragedy.れう.title": "",
+      "100-Friends Plan.白獅子のケイ.story": "",
+      // ja: 友達100人計画
+      "100-Friends Plan.白獅子のケイ.title": "",
+      // ja: 基本的に「封印されしモノ」か「僕と契約しようよ！」とのCSを組む。また、カルティストの能力は使用せず、発覚するまでタイムトラベラーでの勝利も狙わ ない。（4日目にアルバイトを殺害出来ればお嬢様、アイドル経由での友好カウン…
+      "A Will..比良坂右京.mastermindHints": "",
+      "Leave it to Lil' Sis!.れう.story": "",
+      // ja: 妹様におまかせ！
+      "Leave it to Lil' Sis!.れう.title": "",
+      "The School Tragedy.ペンスキー.story": "",
+      // ja: 学校の惨劇
+      "The School Tragedy.ペンスキー.title": "",
+      // ja: 惨劇RoopeRを2,3回経験した主人公向けです。ルールXを豪快に活用したロックギミックと、それによるルールYの隠蔽が特徴です。
+      "He's a Person.ペンスキー.description": "",
+      "Those Who Overwhelm.ペンスキー.story": "",
+      // ja: 圧倒する者たち
+      "Those Who Overwhelm.ペンスキー.title": "",
+      // ja: 最低の却本には、役職人数を減らしてもよいという唯一無二の特徴があります。この脚本は、その特徴に最大限フォーカスしたものになります。 コンパクトかつ難易度もそれほどでもないので、惨劇会の合間の箸休めにどうぞ。
+      "A Hideous Cast.ペンスキー.description": "",
+      // ja: 勝利条件1:タイムトラベラーにループ終了時に友好カウンターが2つ以下である。 勝利条件2:蝶の羽ばたきが発生している。 勝利条件3:病院の事件による主人公の殺害。 勝利条件4:メインラバーズによる主人公の殺害。
+      "A Will..比良坂右京.victory-conditions": "",
+      "Battle Between Women.ペンスキー.story": "",
+      // ja: 女の戦い
+      "Battle Between Women.ペンスキー.title": "",
+      "He's a Person.ペンスキー.specialRules": "",
+      // ja: 主人公は最後の戦いを実施してもよい。
+      "A Hideous Cast.ペンスキー.specialRules": "",
+      // ja: 非常に理不尽な脚本です。6ループと一見長く見えますが、主人公に与えられた猶予は思いのほか短いです。 最後の戦いは運ゲーになるためループ抜け推奨ですが、脚本の全容を把握した上で完璧なカード配置を求められます。
+      "Scathing Report.ペンスキー.description": "",
+      "Scathing Report.ペンスキー.specialRules": "",
+      // ja: 「ＢＴＸがお好き？結構。ではますます気になりますよ。さあさどうぞ、ＢＴＸのニューモデルです。快適でしょう？んああー仰らないで。ルールが特殊、でも普通のＢＴＸなんてシンプルなだけで発展性は低いし、よく外道主人公に読まれるわ…
+      "Script Maker.Lapras-hst@パーソン.story": "",
+      // ja: 脚本ツクール
+      "Script Maker.Lapras-hst@パーソン.title": "",
+      // ja: 初心者〜中級者向けの脚本です。 ルールと事件の犯人が分かるとかなり勝ちやすくなります。
+      "The Academy Tragedy.れう.description": "",
+      // ja: 潤沢な敗北方法を使って、CSを広げつつ、主人公側は友好能力を解放して、フレンドを見つける事に全力を出す脚本。
+      "100-Friends Plan.白獅子のケイ.description": "",
+      "A Perfect Day for Suicide.竹美香.story": "",
+      // ja: 自殺日和
+      "A Perfect Day for Suicide.竹美香.title": "",
+      "Antivirus Friendship Front.れう.story": "",
+      // ja: ウイルス対策友情戦線
+      "Antivirus Friendship Front.れう.title": "",
+      "Evil Contaminated Realm.ペンスキー.story": "",
+      // ja: 邪悪なる汚染領域
+      "Evil Contaminated Realm.ペンスキー.title": "",
+      // ja: ミスリーダーの能力は毎日使って下さい。隠す必要は全くありません。その上で不安拡大と転校生の自殺を発生させるのが必達目標です。逆に3日目の殺人事件は起こしてはいけません。 不安拡大で暗躍カウンター、転校生の自殺で不安カウン…
+      "He's a Person.ペンスキー.mastermindHints": "",
+      "The Academy Tragedy.れう.specialRules": "",
+      // ja: 相談禁止にする場合ループ数+1
+      "100-Friends Plan.白獅子のケイ.specialRules": "",
+      // ja: 各ループで必ず学者に不安カウンターを置いて下さい。その上で、毎回以下のテンプレ通りにカードを置いてください。 病院→暗躍+1、サラリーマン→暗躍+2、学者→不安+1 病院の暗躍が通ればルールYで、サラリーマンの暗躍が通れ…
+      "A Hideous Cast.ペンスキー.mastermindHints": "",
+      // ja: 凶悪な事件が多いPPよりの脚本です。 主人公は妹の力を借りて惨劇を防いでいく脚本です。
+      "Leave it to Lil' Sis!.れう.description": "",
+      "The Hidden Time Traveler.ペンスキー.story": "",
+      // ja: 隠れ潜むタイムトラベラー
+      "The Hidden Time Traveler.ペンスキー.title": "",
+      // ja: ボードへの暗躍を重視した練習用脚本です。暗躍カウンターの効果と、ルールを絞らせない事の重要性を理解するのに適しています。
+      "The School Tragedy.ペンスキー.description": "",
+      "Time Traveler on the Run.ペンスキー.story": "",
+      // ja: 逃げ惑うタイムトラベラー
+      "Time Traveler on the Run.ペンスキー.title": "",
+      // ja: 脚本家はあるキャラクターに行動カードをセットできない。 それは非公開シートで定められていて各ループで固定である。
+      "Leave it to Lil' Sis!.れう.specialRules": "",
+      // ja: 3ループ目まで、脚本家の勝利手段が厳密に定められています。これに従うことで、ループを追うごとに主人公に絶望を叩きつけられます。 ・1ループ目：シリアルキラーによるフレンドの殺害 ・2ループ目：キーパーソンの自殺 ・3ルー…
+      "Scathing Report.ペンスキー.mastermindHints": "",
+      "The School Tragedy.ペンスキー.specialRules": "",
+      // ja: 風変わりなキャラクターが多数登場しますが、その割には非常に初心者向けな脚本です。 逆に脚本家はかなり勝ちにくいため、ある程度の経験や慣れが求められます。
+      "Those Who Overwhelm.ペンスキー.description": "",
+      "When You Wish Upon A Star.ペンスキー.story": "",
+      // ja: ホシに願いを
+      "When You Wish Upon A Star.ペンスキー.title": "",
+      // ja: BTXを初めて回す脚本家に向けた脚本です。惨劇RoopeRの脚本家自体初めてでも問題ありません。 ルールの組み合わせにより安定した勝利手段を持ち、脚本家初心者でも扱いやすくなっています。 なお、練習用の割りには主人公の勝…
+      "Battle Between Women.ペンスキー.description": "",
+      // ja: 1. - 主人公の殺害 (メインラバーズの能力) 2. - フレンドの殺害 (A.I.の友好能力、異世界人の友好能力、殺人事件) 3. - 僕と契約しようよ！ (キーパーソンに暗躍カウンターを２つ乗せる)
+      "He's a Person.ペンスキー.victory-conditions": "",
+      // ja: 1ループ目 脚本家は少女や都市に暗躍を置きながら、神社に暗躍を通す。 基本的にルールYかフレンドの殺害で終わらせたいが、イレギュラーがシリアルキラーである情報はなるべく隠した方がよい感じです。 2ループ目 ここからは事件…
+      "The Academy Tragedy.れう.mastermindHints": "",
+      "Those Who Overwhelm.ペンスキー.specialRules": "",
+      // ja: 1ループ目は、タイムトラベラーの能力で勝つため、脚本家の能力は使用せず、事件も発生させず移動カードを置いて、静かにループを過ごす。 2ループ目からは、ファクターの死亡、神社への暗躍をメインに主人公達を敗北させていこう。 …
+      "100-Friends Plan.白獅子のケイ.mastermindHints": "",
+      "A Hideous Cast.ペンスキー.victory-conditions": "",
+      "Battle Between Women.ペンスキー.specialRules": "",
+      "The Assassin Blade's Target.ペンスキー.story": "",
+      // ja: 凶刃の向かう先は
+      "The Assassin Blade's Target.ペンスキー.title": "",
+      "The Truth Behind the Rumors.ペンスキー.story": "",
+      // ja: 噂の果ての真相
+      "The Truth Behind the Rumors.ペンスキー.title": "",
+      // ja: 脚本家は妹にカードをセットできません。 そのため、大人の能力は妹経由で撃たれ放題です。 鑑識官の能力は不安の調整や死体の役職当て、 刑事の能力はフレンドである自分に護衛カウンターを乗せることができ、 そして手先の能力を使…
+      "Leave it to Lil' Sis!.れう.mastermindHints": "",
+      "Scathing Report.ペンスキー.victory-conditions": "",
+      // ja: 脚本を作ったことがない主人公の方に、その場で脚本作成の一部を手伝ってもらう、という超変則脚本です。 脚本家にとっては、究極のアドリブ力が求められる難易度★８です。 どの事件が選ばれても戦える要素を散りばめました。最後の戦…
+      "Script Maker.Lapras-hst@パーソン.description": "",
+      "Spreading Paranoia and Trust.ペンスキー.story": "",
+      // ja: 蔓延する不安と信頼
+      "Spreading Paranoia and Trust.ペンスキー.title": "",
+      // ja: 1ループ目は初日にアイドルへ不安+1、男子学生へ不安+1、学校へ暗躍+1をセットします。 アイドル自身のミスリーダー能力と合わせて行方不明を起こし、初日に学校へ暗躍カウンターを２つ乗せて勝利します。必要に応じて不穏な噂の…
+      "The School Tragedy.ペンスキー.mastermindHints": "",
+      // ja: 妹使いたいとの事で、妹を使わないと絶対にフレンドの女の子が死ぬ脚本を作ってみました。 妹の能力の同一エリア縛りがきつく見えるので従者か刑事の片方と一緒に学校にいればいいように、かつご神木で友好溜めやすいようにと組みました…
+      "A Perfect Day for Suicide.竹美香.description": "",
+      // ja: シンプルな構成の脚本です。 あまりつよい脚本ではないので、相談不可を初めて行う場合や初心者が多い場合に最適 また、妄想拡大ウイルスを使用してミスリーダーやタイムトラベラーの位置を割っていくことに気づけば、主人公はかなり楽…
+      "Antivirus Friendship Front.れう.description": "",
+      // ja: CS軸とPP軸、2通りの展開が可能な脚本です。どちらで臨むかは脚本家次第ですので、お好みでお選び下さい。 いずれにしても事件の犯人の特定が重要となります。刑事が大いに活躍するでしょう。
+      "Evil Contaminated Realm.ペンスキー.description": "",
+      // ja: 毎ループの開始時に、リーダーは２～５日目のそれぞれの事件の事件名※を宣言する。 そのループ中、事件の効果は宣言したものとなり、脚本家はルール上可能な範囲で効果を解決する。 ※登録の関係で、公開シート上では暫定的に殺人事件…
+      "Script Maker.Lapras-hst@パーソン.specialRules": "",
+      "The Academy Tragedy.れう.victory-conditions": "",
+      // ja: 1ループ目は転校生を狙いますが、暗躍と殺害のどちらのルートも選択肢となります。暗躍を狙うなら、いずれかのボードへも暗躍を2つ置いてCSとしたいです。黒猫と幻想の特性を最大限活かして主人公を惑わせましょう。 殺害を目指すな…
+      "Those Who Overwhelm.ペンスキー.mastermindHints": "",
+      // ja: ここにはまだ蝶はいない。蝶になるべく地を這う虫がいるだけだ。
+      "Wings Slithering on the Ground.ぶー太郎.story": "",
+      // ja: 地を這う羽
+      "Wings Slithering on the Ground.ぶー太郎.title": "",
+      "100-Friends Plan.白獅子のケイ.victory-conditions": "",
+      // ja: 友好禁止禁止 (斜め移動禁止入れると更に難易度減少)
+      "A Perfect Day for Suicide.竹美香.specialRules": "",
+      "Antivirus Friendship Front.れう.specialRules": "",
+      // ja: それぞれのループにおいて、以下の勝利条件を目指して動くのがおすすめです。 ・1ループ目：シリアルキラーによるキーパーソン殺害 ・2ループ目：不安拡大によってキーパーソンへ暗躍+2 ・3ループ目：2ループ目と同様 ・4ルー…
+      "Battle Between Women.ペンスキー.mastermindHints": "",
+      "Evil Contaminated Realm.ペンスキー.specialRules": "",
+      // ja: 難易度の割には少々長めな脚本です。3つのルールも多くの役職も比較的簡単に割れますが、タイムトラベラーだけはある1点を除いて特定が難しいです。
+      "The Hidden Time Traveler.ペンスキー.description": "",
+      // ja: BTX未経験か、または１回くらいしか遊んだことのない初心者に向けた脚本です。 脚本家としても回しやすい脚本になっているため、脚本家初心者の方にもおすすめな脚本です。
+      "Time Traveler on the Run.ペンスキー.description": "",
+      "Leave it to Lil' Sis!.れう.victory-conditions": "",
+      "The Hidden Time Traveler.ペンスキー.specialRules": "",
+      "The School Tragedy.ペンスキー.victory-conditions": "",
+      "Time Traveler on the Run.ペンスキー.specialRules": "",
+      // ja: Note: There are two :illusion:s in this script, but due to limitations, the second :friend: is displayed as ":…
+      "When You Wish Upon A Star.ペンスキー.description": "",
+      "Overcoming the Death of a Friend.ペンスキー.story": "",
+      // ja: 友の死を乗り越えて
+      "Overcoming the Death of a Friend.ペンスキー.title": "",
+      // ja: 基本方針として、神社への暗躍により勝利を目指しますが、同時にどのようにＣＳを用意し、どのように役職を１つ隠すかが、脚本家の腕が問われる重要課題になります。 ルールＹのＣＳは僕と契約しようよ！、巨大時限爆弾Ｘの存在にほぼ限…
+      "Script Maker.Lapras-hst@パーソン.mastermindHints": "",
+      "Those Who Overwhelm.ペンスキー.victory-conditions": "",
+      // ja: 幻想はフレンドである。
+      "When You Wish Upon A Star.ペンスキー.specialRules": "",
+      // ja: 女の子に不安を置き続ければ確実に自殺します。刑事、従者は友好無視なので、妹で能力を女の子に使わないと抜けれないです。 役職当ても妹が使われなければ、キーパーソン、ミスリーダー、キラー、クロマクは分からないので難しいです。…
+      "A Perfect Day for Suicide.竹美香.mastermindHints": "",
+      // ja: またフレンドの殺害には殺人事件、病院の事件、シリアルキラーによる殺害が用意されています。 一番優先したいのは殺人事件によるフレンドの殺害です。 ただし、事件を起こそうと不安を重ねるとサラリーマン、巫女、情報屋はシリアルキ…
+      "Antivirus Friendship Front.れう.mastermindHints": "",
+      // ja: 1 キーパーソンの殺害 シリアルキラー、殺人事件 2 僕と契約しようよ！ キーパーソンへ暗躍カウンターを2つ置く、不安拡大×2
+      "Battle Between Women.ペンスキー.victory-conditions": "",
+      // ja: １ループ目開始前からフレンドが公開されているので、各ループ開始時に2人の幻想へ友好カウンターを置いて下さい。 脚本家の勝利手段は蝶の羽ばたきとタイムトラベラーの能力ですが、メインは蝶の羽ばたきです。 蝶の羽ばたきは勝利条…
+      "Evil Contaminated Realm.ペンスキー.mastermindHints": "",
+      // ja: 初日の殺人事件がこの脚本のコンセプトです。 起こすも起こさないもそれぞれメリットデメリットがあるため、主人公と脚本家の思惑が錯綜します。それらが絶妙に噛み合ったとき、至る結末は果たして平穏な日常か、あるいは惨劇か…
+      "The Assassin Blade's Target.ペンスキー.description": "",
+      // ja: ルールX『不穏な噂』を最大限活用した脚本です。このルールすげぇよ！
+      "The Truth Behind the Rumors.ペンスキー.description": "",
+      // ja: 奇妙な特殊ルールを携えた1日脚本です。 因果の糸との相互作用により、爆発的に不安と友好が拡大していきます。 1日脚本とは思えないような、ダイナミックなゲームをお楽しみ下さい。
+      "Spreading Paranoia and Trust.ペンスキー.description": "",
+      "The Assassin Blade's Target.ペンスキー.specialRules": "",
+      // ja: メインとなる勝利手段はフレンドの殺害です。教師がミスリーダーかつ殺人事件の犯人なので、委員長の殺害を優先して狙いましょう。タイムトラベラーの能力による勝利は極力控えるべきですが、他に勝利手段がないときは仕方ないので使いま…
+      "The Hidden Time Traveler.ペンスキー.mastermindHints": "",
+      "The Truth Behind the Rumors.ペンスキー.specialRules": "",
+      // ja: まず、１ループ目は病院の事件で勝利します。病院に暗躍＋２、学校に暗躍＋１、女子学生に不安＋１を置きましょう。 病院に暗躍禁止が置かれたらカルティストで無効化します。そして脚本家能力フェイズに不穏な噂で学校へ暗躍＋１して、…
+      "Time Traveler on the Run.ペンスキー.mastermindHints": "",
+      // ja: やぁ、こんにちは。カナヱはカナヱ。世界を上位から見ているよ。 「あっ、カナヱさまだー」 「カナヱさま、ありがたや」 「カナヱさま、その方は？」 は、はじめまして。【いもうと】のヤツハです。 「ヤツハさまー！」 「ヤツハさ…
+      "Unrivaled ★ Little Sister.KM(キャクホンカミナライ).story": "",
+      // ja: 妹★無双
+      "Unrivaled ★ Little Sister.KM(キャクホンカミナライ).title": "",
+      "Script Maker.Lapras-hst@パーソン.victory-conditions": "",
+      // ja: 脚本家は友好禁止と不安-1を使用できない。 不安カウンターは友好カウンターとしても扱う。
+      "Spreading Paranoia and Trust.ペンスキー.specialRules": "",
+      // ja: １ループ目開始前からフレンドが公開されているので、各ループ開始時に2人の幻想へ友好カウンターを置いて下さい。 脚本家の勝利手段は蝶の羽ばたきとタイムトラベラーの能力ですが、メインは蝶の羽ばたきです。 蝶の羽ばたきは勝利条…
+      "When You Wish Upon A Star.ペンスキー.mastermindHints": "",
+      // ja: １ギミックに頼り切った脚本。BTXのこの構成である程度以上戦えるようにはなっているはず。
+      "Wings Slithering on the Ground.ぶー太郎.description": "",
+      "A Perfect Day for Suicide.竹美香.victory-conditions": "",
+      // ja: 勝ち手段は以下の4つ フレンドの殺害 蝶の羽ばたきの発生 病院の事件 タイムトラベラー
+      "Antivirus Friendship Front.れう.victory-conditions": "",
+      "Evil Contaminated Realm.ペンスキー.victory-conditions": "",
+      "Wings Slithering on the Ground.ぶー太郎.specialRules": "",
+      // ja: 1ループ目は初日からキーパーソンへ暗躍+2を通してしまいましょう。不安拡大をほぼ確実に起こせる上、行方不明の犯人がキラーなので、キーパーソンへの 暗躍さえ通せれば問題なく敗北条件を満たせるでしょう。ミスリーダーはバラして…
+      "The Assassin Blade's Target.ペンスキー.mastermindHints": "",
+      "The Hidden Time Traveler.ペンスキー.victory-conditions": "",
+      // ja: 脚本家の勝利手段は病院の事件で主人公を殺害するか、都市に暗躍カウンターを２つ置くかのいずれかです。そして、不穏な噂の強力なサポートによって、そのうちいずれかはほぼ確実に実行可能となっています。 1ループ目はできれば巨大時…
+      "The Truth Behind the Rumors.ペンスキー.mastermindHints": "",
+      "Time Traveler on the Run.ペンスキー.victory-conditions": "",
+      // ja: 脚本家の行動が大きく制限された、パズル脚本です。 コンセプトレベルのギミックが2つも併載されており、主人公はその両方を発見しなくてはなりません。 普通の惨劇RoopeRとは趣きが少々異なるため、プレイ経験の少ない方にはお…
+      "Overcoming the Death of a Friend.ペンスキー.description": "",
+      // ja: 不安カウンターを置いたキャラは次ループ以降、特殊ルールと因果の糸によってループ開始時に不安+2され続けます。 毎ループ必ず、サラリーマン→不安+1、病院→暗躍+2を積んで下さい。それによって、2ループ目以降は確実に病院の…
+      "Spreading Paranoia and Trust.ペンスキー.mastermindHints": "",
+      // ja: 世界線を跨ぎながら惨劇を描く脚本家と、惨劇を阻止すべく奮闘してきた主人公たち。 しかし、今回迷い込んだ世界は何かがおかしい。 絶望の果てで、光を見つけ出せ。 必要なものは、閃きただひとつ。 諦めるな。さあ、次のループを始…
+      "The Devotion of Mastermind X.Lapras-hst@パーソン.story": "",
+      // ja: 脚本家Ｘの献身
+      "The Devotion of Mastermind X.Lapras-hst@パーソン.title": "",
+      // ja: 1 未来改変プラン 蝶の羽ばたきを起こす 2 タイムトラベラーの能力 ループ最終日にタイムトラベラーの友好カウンターが2つ以下
+      "When You Wish Upon A Star.ペンスキー.victory-conditions": "",
+      // ja: 脚本家は移動と友好禁止を使用できない。
+      "Overcoming the Death of a Friend.ペンスキー.specialRules": "",
+      // ja: 初日アルバイトに友好禁止、委員長に不安＋１、学校に暗躍＋２（暗躍１） 教師に対してミスリーダーを起動する。 女子学生移動、学校に暗躍禁止であってもファクターの偽装が失敗していても教師自身に起動すること。 教師がファクター…
+      "Wings Slithering on the Ground.ぶー太郎.mastermindHints": "",
+      // ja: 脚本家の勝利条件は、基本的にキーパーソンの殺害だけです。
+      "The Assassin Blade's Target.ペンスキー.victory-conditions": "",
+      // ja: 1 巨大時限爆弾Xの存在 都市へ暗躍カウンターを2つ置く 2 主人公の殺害 病院の事件
+      "The Truth Behind the Rumors.ペンスキー.victory-conditions": "",
+      // ja: 本脚本は、キャラクターの中でも比較的新しい、珍しいキャラクターを豊富に取り揃えてみました。 彼ら彼女らの友好能力を駆使して、キャクホンカを蹂躙するものとなります。
+      "Unrivaled ★ Little Sister.KM(キャクホンカミナライ).description": "",
+      "Spreading Paranoia and Trust.ペンスキー.victory-conditions": "",
+      // ja: リーダーは、自身の使用済み1L1回のカードを行動フェイズに使用しても良い。使用の際は別のカードをセットし、カードを公開する直前に使用済みのカードとセットしたカードを入れ替えること。
+      "Unrivaled ★ Little Sister.KM(キャクホンカミナライ).specialRules": "",
+      // ja: 手先の初期配置は常に病院にしてください。 3日目の邪気の汚染を非常に安定して起こせる上、起これば勝利確定です。主人公としてこれを止めるには一手間かかるため、序盤のループで即抜けされる事はありえません。 まず序盤は不安をば…
+      "Overcoming the Death of a Friend.ペンスキー.mastermindHints": "",
+      // ja: 勝利条件はただ１つ。 アルバイト？のタイムトラベラー能力だけ。 つまり、４日目にアルバイトを殺す事が脚本家唯一の勝利条件。これをふまえて、各日の目標を記す。
+      "Wings Slithering on the Ground.ぶー太郎.victory-conditions": "",
+      "What if a Man Fell into the World of Yuri?.白獅子のケイ.story": "",
+      // ja: もしも百合の世界の間に男が入ってきたら？
+      "What if a Man Fell into the World of Yuri?.白獅子のケイ.title": "",
+      // ja: 惨劇RoopeRプレイに慣れた中～上級者向けの、特殊ルールありの脚本です。 ゲーム本来の楽しみ方を損なう可能性があるため、プレイ前に主人公に承諾を得ることを推奨します。 また、正しくプレイすれば主人公が必ず勝てる脚本であ…
+      "The Devotion of Mastermind X.Lapras-hst@パーソン.description": "",
+      // ja: AIの蝶の羽ばたきを起こすことは非常に容易なため、ループ突破は防ぎやすい構造です。 一方で役職者の数は少なく、直接役職を割る手段があるため、いかに役職バレを防ぐかが 課題となってきます。 役職の候補を増やすため、CSを組…
+      "Unrivaled ★ Little Sister.KM(キャクホンカミナライ).mastermindHints": "",
+      "Overcoming the Death of a Friend.ペンスキー.victory-conditions": "",
+      // ja: ・脚本家は「暗躍+1」「不安-1」「移動斜め」を使用できない。 ・最後の戦いは実施しない。 ・その他、非公開の特殊ルールあり
+      "The Devotion of Mastermind X.Lapras-hst@パーソン.specialRules": "",
+      "Unrivaled ★ Little Sister.KM(キャクホンカミナライ).victory-conditions": "",
+      // ja: 隠し特殊ルール：脚本家の勝利条件を、「主人公が勝利すること」に変更する。ただし、主人公の任意の敗北条件は、他の敗北条件が不成立の場合、強制発動する。 脚本家の真の目標は、通常のルールとは異なり、「主人公をサポートしてルー…
+      "The Devotion of Mastermind X.Lapras-hst@パーソン.mastermindHints": "",
+      // ja: 比較的入門用の脚本をイメージして作りました。どこからともなく現れるシリアルキラーにご注意を。
+      "What if a Man Fell into the World of Yuri?.白獅子のケイ.description": "",
+      // ja: 相談禁止にした場合ループ数+1
+      "What if a Man Fell into the World of Yuri?.白獅子のケイ.specialRules": "",
+      // ja: ちょっとお高く止まったあの子が、淑女協定を破ってクラスで人気の男子と個人的に絡んでしまったものだから、さあ大変。 クラス中の女子の恨みを買ってしまった！ 彼は味方でいてくれる・・・よね？ ドジっ子先生と一匹狼、何も知らな…
+      "Everyone Gathers to Bully the Tofu-Minded.Lapras-hst@パーソン.story": "",
+      // ja: 豆腐メンタルをみんなでいじめる会
+      "Everyone Gathers to Bully the Tofu-Minded.Lapras-hst@パーソン.title": "",
+      "The Devotion of Mastermind X.Lapras-hst@パーソン.victory-conditions": "",
+      // ja: 【メインラバーズの効果で主人公を殺そう】 【ラバーズをうまく隠そう】 【少女達で転校生を殺そう】 お嬢様と手先の事件で暗躍や不安をばら撒き、メインラバーズの効果で主人公の殺害を狙います。 最初のループからメインラバーズか…
+      "What if a Man Fell into the World of Yuri?.白獅子のケイ.mastermindHints": "",
+      // ja: 女の子がリーマンを狙ってるけど、一番重要なのは巫女
+      "A Businessman Wanders into a Place Full of Women.yurei(ʘᴗʘ✿).story": "",
+      // ja: 女だらけの場所に紛れ込んだサラリーマン
+      "A Businessman Wanders into a Place Full of Women.yurei(ʘᴗʘ✿).title": "",
+      "What if a Man Fell into the World of Yuri?.白獅子のケイ.victory-conditions": "",
+      // ja: 女子学生たちがよってたかってお嬢様を殺しにくる、学生だらけのの脚本です。 主人公が慣れていない場合は、相談可にしましょう。逆に熟練者が相手ならば、４ループで良いです。 ＰＰがかなり強めで、前半はワンターンキルが何回も狙え…
+      "Everyone Gathers to Bully the Tofu-Minded.Lapras-hst@パーソン.description": "",
+      // ja: 脚本家の「友好禁止」カードの効果は無効化される。
+      "Everyone Gathers to Bully the Tofu-Minded.Lapras-hst@パーソン.specialRules": "",
+      // ja: 初作成した脚本
+      "A Businessman Wanders into a Place Full of Women.yurei(ʘᴗʘ✿).description": "",
+      "A Businessman Wanders into a Place Full of Women.yurei(ʘᴗʘ✿).specialRules": "",
+      // ja: ひたすら、お嬢様の殺害を目指しましょう。 １ループ目は妨害がなければ、キラーの能力でお嬢様を殺害して勝利できます。 暗躍が止められたら、ミスリーダーの能力でお嬢様に不安Ｃを置いて事件を発生させ、クロマクの能力と合わせてお…
+      "Everyone Gathers to Bully the Tofu-Minded.Lapras-hst@パーソン.mastermindHints": "",
+      // ja: 1ループ目はシリアルキラーでフレンドを倒す。 2ループ目はシリアルキラーでキーパーソンを倒す。 3ループ目は病院の事件をダミーとして、キーパーソンに暗躍を乗せる。 4ループ目は蝶の羽ばたきで暗躍を1個乗せることにより暗躍…
+      "A Businessman Wanders into a Place Full of Women.yurei(ʘᴗʘ✿).mastermindHints": "",
+      "Everyone Gathers to Bully the Tofu-Minded.Lapras-hst@パーソン.victory-conditions": "",
+      "A Businessman Wanders into a Place Full of Women.yurei(ʘᴗʘ✿).victory-conditions": ""
+    }
+  }
+}

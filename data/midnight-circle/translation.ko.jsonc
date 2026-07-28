@@ -1,0 +1,96 @@
+{
+  // ---------------------------------------------------------------------------
+  //  Tragedy Looper — ko 번역 · midnight-circle 각본
+  //  scripts/gen-ko-skeleton.mjs 로 생성. 재생성해도 기존 값은 보존된다.
+  //
+  //  - 키(왼쪽)는 수정 금지
+  //  - { } 플레이스홀더와 :token: 은 그대로 보존
+  //  - 원문에 없는 마크다운 링크 추가 시 번역 전체가 폐기됨
+  //  - 확신 없으면 비워둘 것 (영어로 폴백된다)
+  //  - // ja: 주석은 참고용. 정발은 일본어 5th 기준이라 ja 가 가장 가깝다
+  // ---------------------------------------------------------------------------
+  "$schema": "./translations.schema.json",
+  "translations": {
+    "ko": {
+      // ==== 각본 텍스트 (제목.제작자.필드)  (78개) ======================================
+      "Bag of Risks.Mew2mi.story": "",
+      "Bag of Risks.Mew2mi.title": "",
+      "The Future Assassin.unun.story": "",
+      "The Future Assassin.unun.title": "",
+      "Bag of Risks.Mew2mi.description": "",
+      "Bag of Risks.Mew2mi.specialRules": "",
+      "Romance Antithesis.BakaFire.story": "",
+      "Romance Antithesis.BakaFire.title": "",
+      "Obsession Detection.BakaFire.story": "",
+      "Obsession Detection.BakaFire.title": "",
+      "Bag of Risks.Mew2mi.mastermindHints": "",
+      "The Future Assassin.unun.description": "",
+      "The Future Assassin.unun.specialRules": "",
+      "Bag of Risks.Mew2mi.victory-conditions": "",
+      "Spinning Duplicate Spiral.Gaijin.story": "",
+      "Spinning Duplicate Spiral.Gaijin.title": "",
+      "Machina Solar Cogwheel.M.Hydromel.story": "",
+      "Machina Solar Cogwheel.M.Hydromel.title": "",
+      "Romance Antithesis.BakaFire.description": "",
+      "Obsession Detection.BakaFire.description": "",
+      "Romance Antithesis.BakaFire.specialRules": "",
+      "The Future Assassin.unun.mastermindHints": "",
+      "In the Hands of Evil Fate.Bodogetta.story": "",
+      "In the Hands of Evil Fate.Bodogetta.title": "",
+      "Obsession Detection.BakaFire.specialRules": "",
+      "Milestone.AKITAGAWA Detective Bureau.story": "",
+      "Milestone.AKITAGAWA Detective Bureau.title": "",
+      "Traditional Ensemble Murder.BakaFire.story": "",
+      "Traditional Ensemble Murder.BakaFire.title": "",
+      "Romance Antithesis.BakaFire.mastermindHints": "",
+      "The Future Assassin.unun.victory-conditions": "",
+      "Obsession Detection.BakaFire.mastermindHints": "",
+      "Spinning Duplicate Spiral.Gaijin.description": "",
+      "The Festival of Fools.Satoshi Sawamura.story": "",
+      "The Festival of Fools.Satoshi Sawamura.title": "",
+      "The Temple of Poisoned Loneliness.GEnd.story": "",
+      "The Temple of Poisoned Loneliness.GEnd.title": "",
+      "Machina Solar Cogwheel.M.Hydromel.description": "",
+      "Spinning Duplicate Spiral.Gaijin.specialRules": "",
+      "Machina Solar Cogwheel.M.Hydromel.specialRules": "",
+      "Romance Antithesis.BakaFire.victory-conditions": "",
+      "In the Hands of Evil Fate.Bodogetta.description": "",
+      "Obsession Detection.BakaFire.victory-conditions": "",
+      "In the Hands of Evil Fate.Bodogetta.specialRules": "",
+      "Milestone.AKITAGAWA Detective Bureau.description": "",
+      "Spinning Duplicate Spiral.Gaijin.mastermindHints": "",
+      "Traditional Ensemble Murder.BakaFire.description": "",
+      "Machina Solar Cogwheel.M.Hydromel.mastermindHints": "",
+      "Milestone.AKITAGAWA Detective Bureau.specialRules": "",
+      "Singer of the Heretic Idol.Satoshi Sawamura.story": "",
+      "Singer of the Heretic Idol.Satoshi Sawamura.title": "",
+      "Traditional Ensemble Murder.BakaFire.specialRules": "",
+      "The Festival of Fools.Satoshi Sawamura.description": "",
+      "The Temple of Poisoned Loneliness.GEnd.description": "",
+      "In the Hands of Evil Fate.Bodogetta.mastermindHints": "",
+      "Spinning Duplicate Spiral.Gaijin.victory-conditions": "",
+      "The Festival of Fools.Satoshi Sawamura.specialRules": "",
+      "The Temple of Poisoned Loneliness.GEnd.specialRules": "",
+      "Machina Solar Cogwheel.M.Hydromel.victory-conditions": "",
+      "Milestone.AKITAGAWA Detective Bureau.mastermindHints": "",
+      "Traditional Ensemble Murder.BakaFire.mastermindHints": "",
+      "In the Hands of Evil Fate.Bodogetta.victory-conditions": "",
+      "The Festival of Fools.Satoshi Sawamura.mastermindHints": "",
+      "The Temple of Poisoned Loneliness.GEnd.mastermindHints": "",
+      "Milestone.AKITAGAWA Detective Bureau.victory-conditions": "",
+      "Singer of the Heretic Idol.Satoshi Sawamura.description": "",
+      "Traditional Ensemble Murder.BakaFire.victory-conditions": "",
+      "Singer of the Heretic Idol.Satoshi Sawamura.specialRules": "",
+      "The Festival of Fools.Satoshi Sawamura.victory-conditions": "",
+      "The Temple of Poisoned Loneliness.GEnd.victory-conditions": "",
+      "Singer of the Heretic Idol.Satoshi Sawamura.mastermindHints": "",
+      "Singer of the Heretic Idol.Satoshi Sawamura.victory-conditions": "",
+      "The Unknowns of the Tragedies in the Academic City.Izayoi.story": "",
+      "The Unknowns of the Tragedies in the Academic City.Izayoi.title": "",
+      "The Unknowns of the Tragedies in the Academic City.Izayoi.description": "",
+      "The Unknowns of the Tragedies in the Academic City.Izayoi.specialRules": "",
+      "The Unknowns of the Tragedies in the Academic City.Izayoi.mastermindHints": "",
+      "The Unknowns of the Tragedies in the Academic City.Izayoi.victory-conditions": ""
+    }
+  }
+}

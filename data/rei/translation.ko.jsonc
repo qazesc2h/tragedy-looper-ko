@@ -1,0 +1,24 @@
+{
+  // ---------------------------------------------------------------------------
+  //  Tragedy Looper — ko 번역 · rei 각본
+  //  scripts/gen-ko-skeleton.mjs 로 생성. 재생성해도 기존 값은 보존된다.
+  //
+  //  - 키(왼쪽)는 수정 금지
+  //  - { } 플레이스홀더와 :token: 은 그대로 보존
+  //  - 원문에 없는 마크다운 링크 추가 시 번역 전체가 폐기됨
+  //  - 확신 없으면 비워둘 것 (영어로 폴백된다)
+  //  - // ja: 주석은 참고용. 정발은 일본어 5th 기준이라 ja 가 가장 가깝다
+  // ---------------------------------------------------------------------------
+  "$schema": "./translations.schema.json",
+  "translations": {
+    "ko": {
+      // ==== 각본 텍스트 (제목.제작자.필드)  (6개) ======================================
+      "Beyond Praying Stage.NAOKI.story": "",
+      "Beyond Praying Stage.NAOKI.title": "",
+      "Beyond Praying Stage.NAOKI.description": "",
+      "Beyond Praying Stage.NAOKI.specialRules": "",
+      "Beyond Praying Stage.NAOKI.mastermindHints": "",
+      "Beyond Praying Stage.NAOKI.victory-conditions": ""
+    }
+  }
+}

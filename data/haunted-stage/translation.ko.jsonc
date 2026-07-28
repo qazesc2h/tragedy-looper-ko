@@ -1,0 +1,66 @@
+{
+  // ---------------------------------------------------------------------------
+  //  Tragedy Looper — ko 번역 · haunted-stage 각본
+  //  scripts/gen-ko-skeleton.mjs 로 생성. 재생성해도 기존 값은 보존된다.
+  //
+  //  - 키(왼쪽)는 수정 금지
+  //  - { } 플레이스홀더와 :token: 은 그대로 보존
+  //  - 원문에 없는 마크다운 링크 추가 시 번역 전체가 폐기됨
+  //  - 확신 없으면 비워둘 것 (영어로 폴백된다)
+  //  - // ja: 주석은 참고용. 정발은 일본어 5th 기준이라 ja 가 가장 가깝다
+  // ---------------------------------------------------------------------------
+  "$schema": "./translations.schema.json",
+  "translations": {
+    "ko": {
+      // ==== 각본 텍스트 (제목.제작자.필드)  (48개) ======================================
+      "ニセモノ注意報 (Imposter Advisory).siro_xx.story": "",
+      "ニセモノ注意報 (Imposter Advisory).siro_xx.title": "",
+      "孤独ノ隠レンボ (Lonely Hide and Seek).siro_xx.story": "",
+      "孤独ノ隠レンボ (Lonely Hide and Seek).siro_xx.title": "",
+      "ジブン観察日記 (Self-Observation Diary).siro_xx.story": "",
+      "ジブン観察日記 (Self-Observation Diary).siro_xx.title": "",
+      "代行天使 (Proxy Angel).Translated by megakun.story": "",
+      "代行天使 (Proxy Angel).Translated by megakun.title": "",
+      "ニセモノ注意報 (Imposter Advisory).siro_xx.description": "",
+      "ニセモノ注意報 (Imposter Advisory).siro_xx.specialRules": "",
+      "孤独ノ隠レンボ (Lonely Hide and Seek).siro_xx.description": "",
+      "ニセモノ注意報 (Imposter Advisory).siro_xx.mastermindHints": "",
+      "孤独ノ隠レンボ (Lonely Hide and Seek).siro_xx.specialRules": "",
+      "完全犯罪ラブレター (Perfect Crime Love Letter).siro_xx.story": "",
+      "完全犯罪ラブレター (Perfect Crime Love Letter).siro_xx.title": "",
+      "ジブン観察日記 (Self-Observation Diary).siro_xx.description": "",
+      "代行天使 (Proxy Angel).Translated by megakun.description": "",
+      "ジブン観察日記 (Self-Observation Diary).siro_xx.specialRules": "",
+      "代行天使 (Proxy Angel).Translated by megakun.specialRules": "",
+      "ニセモノ注意報 (Imposter Advisory).siro_xx.victory-conditions": "",
+      "孤独ノ隠レンボ (Lonely Hide and Seek).siro_xx.mastermindHints": "",
+      "ジブン観察日記 (Self-Observation Diary).siro_xx.mastermindHints": "",
+      "代行天使 (Proxy Angel).Translated by megakun.mastermindHints": "",
+      "孤独ノ隠レンボ (Lonely Hide and Seek).siro_xx.victory-conditions": "",
+      "完全犯罪ラブレター (Perfect Crime Love Letter).siro_xx.description": "",
+      "完全犯罪ラブレター (Perfect Crime Love Letter).siro_xx.specialRules": "",
+      "蘇る幻影（マボロシ） (Reviving illusion).Translated by megakun.story": "",
+      "蘇る幻影（マボロシ） (Reviving illusion).Translated by megakun.title": "",
+      "ジブン観察日記 (Self-Observation Diary).siro_xx.victory-conditions": "",
+      "代行天使 (Proxy Angel).Translated by megakun.victory-conditions": "",
+      "猿マネ椅子盗りゲーム (Aimless Imitation Musical Chairs).siro_xx.story": "",
+      "猿マネ椅子盗りゲーム (Aimless Imitation Musical Chairs).siro_xx.title": "",
+      "完全犯罪ラブレター (Perfect Crime Love Letter).siro_xx.mastermindHints": "",
+      "完全犯罪ラブレター (Perfect Crime Love Letter).siro_xx.victory-conditions": "",
+      "幻想は都市で死ぬ (illusions Die in the City).Translated by megakun.story": "",
+      "幻想は都市で死ぬ (illusions Die in the City).Translated by megakun.title": "",
+      "蘇る幻影（マボロシ） (Reviving illusion).Translated by megakun.description": "",
+      "猿マネ椅子盗りゲーム (Aimless Imitation Musical Chairs).siro_xx.description": "",
+      "蘇る幻影（マボロシ） (Reviving illusion).Translated by megakun.specialRules": "",
+      "猿マネ椅子盗りゲーム (Aimless Imitation Musical Chairs).siro_xx.specialRules": "",
+      "蘇る幻影（マボロシ） (Reviving illusion).Translated by megakun.mastermindHints": "",
+      "猿マネ椅子盗りゲーム (Aimless Imitation Musical Chairs).siro_xx.mastermindHints": "",
+      "幻想は都市で死ぬ (illusions Die in the City).Translated by megakun.description": "",
+      "幻想は都市で死ぬ (illusions Die in the City).Translated by megakun.specialRules": "",
+      "蘇る幻影（マボロシ） (Reviving illusion).Translated by megakun.victory-conditions": "",
+      "猿マネ椅子盗りゲーム (Aimless Imitation Musical Chairs).siro_xx.victory-conditions": "",
+      "幻想は都市で死ぬ (illusions Die in the City).Translated by megakun.mastermindHints": "",
+      "幻想は都市で死ぬ (illusions Die in the City).Translated by megakun.victory-conditions": ""
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  // ---------------------------------------------------------------------------
+  //  Tragedy Looper — ko 번역 · cosmic-evil 각본
+  //  scripts/gen-ko-skeleton.mjs 로 생성. 재생성해도 기존 값은 보존된다.
+  //
+  //  - 키(왼쪽)는 수정 금지
+  //  - { } 플레이스홀더와 :token: 은 그대로 보존
+  //  - 원문에 없는 마크다운 링크 추가 시 번역 전체가 폐기됨
+  //  - 확신 없으면 비워둘 것 (영어로 폴백된다)
+  //  - // ja: 주석은 참고용. 정발은 일본어 5th 기준이라 ja 가 가장 가깝다
+  // ---------------------------------------------------------------------------
+  "$schema": "./translations.schema.json",
+  "translations": {
+    "ko": {
+      // ==== 각본 텍스트 (제목.제작자.필드)  (60개) ======================================
+      "Vamp.ENTEI.story": "",
+      "Vamp.ENTEI.title": "",
+      "Zombi Hero.GEnd.story": "",
+      "Zombi Hero.GEnd.title": "",
+      "Vamp.ENTEI.description": "",
+      "Vamp.ENTEI.specialRules": "",
+      "Secret Cat Walk.GEnd.story": "",
+      "Secret Cat Walk.GEnd.title": "",
+      "Vamp.ENTEI.mastermindHints": "",
+      "Zombi Hero.GEnd.description": "",
+      "Bella Stellarum.Gaijin.story": "",
+      "Bella Stellarum.Gaijin.title": "",
+      "Zombi Hero.GEnd.specialRules": "",
+      "Vamp.ENTEI.victory-conditions": "",
+      "Zombi Hero.GEnd.mastermindHints": "",
+      "Secret Cat Walk.GEnd.description": "",
+      "Secret Cat Walk.GEnd.specialRules": "",
+      "Ultimate Halloween.BakaFire.story": "",
+      "Ultimate Halloween.BakaFire.title": "",
+      "Banquet School Life.BakaFire.story": "",
+      "Banquet School Life.BakaFire.title": "",
+      "Bella Stellarum.Gaijin.description": "",
+      "Zombi Hero.GEnd.victory-conditions": "",
+      "Bella Stellarum.Gaijin.specialRules": "",
+      "Secret Cat Walk.GEnd.mastermindHints": "",
+      "Bella Stellarum.Gaijin.mastermindHints": "",
+      "Master Thief Seven Tails.BakaFire.story": "",
+      "Master Thief Seven Tails.BakaFire.title": "",
+      "Secret Cat Walk.GEnd.victory-conditions": "",
+      "Ultimate Halloween.BakaFire.description": "",
+      "Banquet School Life.BakaFire.description": "",
+      "Ultimate Halloween.BakaFire.specialRules": "",
+      "Banquet School Life.BakaFire.specialRules": "",
+      "Bella Stellarum.Gaijin.victory-conditions": "",
+      "Ultimate Halloween.BakaFire.mastermindHints": "",
+      "Banquet School Life.BakaFire.mastermindHints": "",
+      "An Ordinary Day In Misuka City.Rokirusu.story": "",
+      "An Ordinary Day In Misuka City.Rokirusu.title": "",
+      "Master Thief Seven Tails.BakaFire.description": "",
+      "Master Thief Seven Tails.BakaFire.specialRules": "",
+      "Ultimate Halloween.BakaFire.victory-conditions": "",
+      "Banquet School Life.BakaFire.victory-conditions": "",
+      "Eyes Without Vision.Nightly Moonfire Group.story": "",
+      "Eyes Without Vision.Nightly Moonfire Group.title": "",
+      "Master Thief Seven Tails.BakaFire.mastermindHints": "",
+      "An Ordinary Day In Misuka City.Rokirusu.description": "",
+      "An Ordinary Day In Misuka City.Rokirusu.specialRules": "",
+      "Master Thief Seven Tails.BakaFire.victory-conditions": "",
+      "Eyes Without Vision.Nightly Moonfire Group.description": "",
+      "An Ordinary Day In Misuka City.Rokirusu.mastermindHints": "",
+      "Eyes Without Vision.Nightly Moonfire Group.specialRules": "",
+      "An Ordinary Day In Misuka City.Rokirusu.victory-conditions": "",
+      "Cosmic Insignificance.M. Hydromel and her automatons.story": "",
+      "Cosmic Insignificance.M. Hydromel and her automatons.title": "",
+      "Eyes Without Vision.Nightly Moonfire Group.mastermindHints": "",
+      "Eyes Without Vision.Nightly Moonfire Group.victory-conditions": "",
+      "Cosmic Insignificance.M. Hydromel and her automatons.description": "",
+      "Cosmic Insignificance.M. Hydromel and her automatons.specialRules": "",
+      "Cosmic Insignificance.M. Hydromel and her automatons.mastermindHints": "",
+      "Cosmic Insignificance.M. Hydromel and her automatons.victory-conditions": ""
+    }
+  }
+}

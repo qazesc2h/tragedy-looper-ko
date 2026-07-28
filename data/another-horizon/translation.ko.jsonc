@@ -1,0 +1,66 @@
+{
+  // ---------------------------------------------------------------------------
+  //  Tragedy Looper — ko 번역 · another-horizon 각본
+  //  scripts/gen-ko-skeleton.mjs 로 생성. 재생성해도 기존 값은 보존된다.
+  //
+  //  - 키(왼쪽)는 수정 금지
+  //  - { } 플레이스홀더와 :token: 은 그대로 보존
+  //  - 원문에 없는 마크다운 링크 추가 시 번역 전체가 폐기됨
+  //  - 확신 없으면 비워둘 것 (영어로 폴백된다)
+  //  - // ja: 주석은 참고용. 정발은 일본어 5th 기준이라 ja 가 가장 가깝다
+  // ---------------------------------------------------------------------------
+  "$schema": "./translations.schema.json",
+  "translations": {
+    "ko": {
+      // ==== 각본 텍스트 (제목.제작자.필드)  (42개) ======================================
+      "Packed Tragedy.translated by megakun.story": "",
+      "Packed Tragedy.translated by megakun.title": "",
+      // de: In einer Welt, in der die Menschen ihre eigenen Emotionen nicht verstehen, lebt ein Protagonist, der sich selb…
+      "Actually, I Am….translated by megakun.story": "",
+      // de: Eigentlich bin ich…
+      "Actually, I Am….translated by megakun.title": "",
+      "Unknown.Hallycon translated by megakun.story": "",
+      "Unknown.Hallycon translated by megakun.title": "",
+      "Fictional Collapse.translated by megakun.story": "",
+      "Fictional Collapse.translated by megakun.title": "",
+      "I‘m A Normal Human.translated by megakun.story": "",
+      "I‘m A Normal Human.translated by megakun.title": "",
+      "Packed Tragedy.translated by megakun.description": "",
+      // de: Eine Geschichte über eine Person, die sich selbst nicht versteht.
+      "Actually, I Am….translated by megakun.description": "",
+      "Packed Tragedy.translated by megakun.specialRules": "",
+      // de: Die Geschichte enthält keine speziellen Regeln, die von den Standardregeln abweichen. Die Spieler sollten sich…
+      "Actually, I Am….translated by megakun.specialRules": "",
+      "Unknown.Hallycon translated by megakun.description": "",
+      "Unknown.Hallycon translated by megakun.specialRules": "",
+      "Fictional Collapse.translated by megakun.description": "",
+      "I‘m A Normal Human.translated by megakun.description": "",
+      "Packed Tragedy.translated by megakun.mastermindHints": "",
+      // de: Die Geschichte dreht sich um die Selbstakzeptanz und das Verständnis der eigenen Emotionen. Der Protagonist le…
+      "Actually, I Am….translated by megakun.mastermindHints": "",
+      "Fictional Collapse.translated by megakun.specialRules": "",
+      "I‘m A Normal Human.translated by megakun.specialRules": "",
+      "Beyond Praying Stage.translated by andrewshen123.story": "",
+      "Beyond Praying Stage.translated by andrewshen123.title": "",
+      "Unknown.Hallycon translated by megakun.mastermindHints": "",
+      "Packed Tragedy.translated by megakun.victory-conditions": "",
+      // de: Der Protagonist muss lernen, sich selbst zu akzeptieren und seine Emotionen zu verstehen. Er muss auch lernen,…
+      "Actually, I Am….translated by megakun.victory-conditions": "",
+      "Fictional Collapse.translated by megakun.mastermindHints": "",
+      "I‘m A Normal Human.translated by megakun.mastermindHints": "",
+      "Unknown.Hallycon translated by megakun.victory-conditions": "",
+      "Fictional Collapse.translated by megakun.victory-conditions": "",
+      "I‘m A Normal Human.translated by megakun.victory-conditions": "",
+      "Beyond Praying Stage.translated by andrewshen123.description": "",
+      "Beyond Praying Stage.translated by andrewshen123.specialRules": "",
+      "Beyond Praying Stage.translated by andrewshen123.mastermindHints": "",
+      "I Hope This Reaches You, The Only One in the World.Bakafire.story": "",
+      "I Hope This Reaches You, The Only One in the World.Bakafire.title": "",
+      "Beyond Praying Stage.translated by andrewshen123.victory-conditions": "",
+      "I Hope This Reaches You, The Only One in the World.Bakafire.description": "",
+      "I Hope This Reaches You, The Only One in the World.Bakafire.specialRules": "",
+      "I Hope This Reaches You, The Only One in the World.Bakafire.mastermindHints": "",
+      "I Hope This Reaches You, The Only One in the World.Bakafire.victory-conditions": ""
+    }
+  }
+}
