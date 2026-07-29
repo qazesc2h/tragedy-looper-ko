@@ -293,7 +293,7 @@ console.log('Finished generating translation schemas for data folders');
 // now we generate the top translation schema, that contains all translations from the data without the scripts And the static translations from code.
 
 function getTranslationStringsFromSrcInFolder(dir: string): string[] {
-    const regex = /((getString(ForLanguage)?\()|(translationKey=\{?))(\s|\n)*(?<quote>['"])(?<text>.*?[^\\])\k<quote>/sg;
+    const regex = /((getString(ForLanguage)?\()|(translationKey=\{?\[?))(\s|\n)*(?<quote>['"])(?<text>.*?[^\\])\k<quote>/sg;
     const files = fs.readdirSync(dir);
     const translationStrings: string[] = [];
     for (const file of files) {

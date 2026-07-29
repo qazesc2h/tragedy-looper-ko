@@ -20,7 +20,7 @@
         <Translation translationKey={'Repeated Culprit'} />
       </li>
     {/if}
-    {#if incident.mob}
+    {#if incident.mob !== undefined}
       <li>
         <Translation translationKey={['Mob incident ({mob})', { mob: incident.mob }]} />
       </li>
@@ -29,7 +29,15 @@
       <b><Translation translationKey="Effect" />:</b>
       <ul>
         {#each incident.effect ?? [] as effect}
-          <li><Translation translationKey={effect.description} link/></li>
+          <li>
+            {#if effect.type}
+              <span>[<b><Translation translationKey={effect.type} /></b>]</span>
+            {/if}
+            {#if effect.prerequisite}
+              [<i><Translation translationKey={effect.prerequisite} link /></i>] ⇒
+            {/if}
+            <Translation translationKey={effect.description} link/>
+          </li>
         {/each}
       </ul>
     </li>

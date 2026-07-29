@@ -48,7 +48,7 @@
             <Translation translationKey={'Repeated Culprit'} />
           </span>
         {/if}
-        {#if incident.mob}
+        {#if incident.mob !== undefined}
           <span class="badge" style="float: right;">
             <Translation translationKey={['Mob ({count})', { count: incident.mob }]} />
           </span>
