@@ -688,7 +688,7 @@
       // de: Nach dem Tod
       "after death": "",
 
-      // ==== 게임 용어 · 장소 · 타이밍 (짧은 문자열)  (217개) ===============================
+      // ==== 게임 용어 · 장소 · 타이밍 (짧은 문자열)  (227개) ===============================
       "by": "",
       // de: oder
       "or": "또는",
@@ -759,9 +759,9 @@
       // de: Nur in
       "Only at": "제한",
       "Options": "옵션",
-      "Passive": "특성",
       // de: passiv
       "passive": "",
+      "Passive": "특성",
       // de: Skripte
       "Scripts": "시나리오",
       "Tragedy": "참극 세트",
@@ -795,6 +795,8 @@
       "Abilities": "능력",
       // ja: キャラクター  |  de: Charakter
       "Character": "캐릭터",
+      // de: Tag {day}
+      "Day {day}": "{day}일째",
       // de: Tagesbeginn
       "Day Start": "라운드 시작",
       // de: Erster Tag
@@ -864,6 +866,8 @@
       "Compakt View": "컴팩트 보기",
       "local script": "로컬 시나리오",
       "not in plots": "",
+      "On Day {day}": "{day}일째에",
+      "On day {day}": "{day}일째에",
       "Prerequisite": "",
       "Shorten Urls": "URL 단축",
       // de: Sonderregel
@@ -881,8 +885,11 @@
       "Incident step": "사건 단계",
       // de: Ist in der Tragödie
       "Is in Tragedy": "참극 세트에 포함",
+      "limit {limit}": "최대 불안 {limit}",
+      "Mob ({count})": "군중 ({count})",
       // ja: 群像事件  |  de: Ausschreitungen
       "Mob Incidents": "군중 사건",
+      "On Loop {day}": "{day}번째 루프에",
       "Placing Cards": "행동 단계",
       "Select a plot": "",
       // ja: 特殊ルール
@@ -948,9 +955,9 @@
       "Incident not found": "사건을 찾을 수 없습니다",
       // de: Mastermind-Fähigkeit
       "Mastermind Ability": "각본가 능력 단계",
-      "On Character Death": "이 캐릭터 사망 시",
       // de: Beim Tod eines Charakters
       "On character death": "이 캐릭터 사망 시",
+      "On Character Death": "이 캐릭터 사망 시",
       "Select a character": "캐릭터를 선택하세요",
       // ja: 脚本家の勝利条件
       "Victory Conditions": "승리 조건",
@@ -966,6 +973,7 @@
       "Kill the :keyPerson:": ":keyPerson:을(를) 사망시킵니다",
       // de: Fehlende Übersetzungen
       "Missing Translations": "누락된 번역",
+      "Mob incident ({mob})": "군중 사건: 필요 시체 수 {mob}",
       "Select Tragedy Sets…": "참극 세트 선택…",
       // de: Touch-Optimiert
       "Touch optimized View": "터치 최적화 보기",
@@ -975,6 +983,8 @@
       "Spell of Sympathy (1)": "감응의 주술 (1)",
       // de: Diese Karte ist eine Leiche.
       "This card is a corpse": "",
+      "{times} times per game": "1게임당 {times}회",
+      "{times} times per loop": "1루프당 {times}회",
       // de: Protagonisten-Fähigkeiten
       "Abilities Protagonists": "",
       // de: Gunst-Fähigkeitsschritt
@@ -989,6 +999,7 @@
       // ja: 敗北条件  |  de: Niederlage: Tragödie
       "Loss condition: Tragedy": "패배 조건",
       "Refuse Goodwill Ability": "",
+      "Times per Loop: {times}": "1루프당 횟수: {times}",
       // de: 1 Intrige auf die Stadt
       "1 :intrigue: on the City": "도심에 :intrigue:이(가) 1개 이상 놓인 경우",
       // de: 2 Intrige auf die Stadt
@@ -1041,7 +1052,7 @@
       // de: Die Spieler sind in der Lichtwelt
       "Players are in the Light world": "",
 
-      // ==== 능력 · 효과 · 규칙 텍스트 (긴 문장) — 마지막에 작업  (515개) =======================
+      // ==== 능력 · 효과 · 규칙 텍스트 (긴 문장) — 마지막에 작업  (520개) =======================
       "BGG page.": "BGG 페이지입니다.",
       "3+ :paranoia:.": ":paranoia:이(가) 3개 이상인 경우.",
       // de: Löse einen Warp aus.
@@ -1113,6 +1124,7 @@
       // de: Ein Charakter ist in dem letztem Loop gestorben.
       "A Character died the last turn.": "직전 루프에 사망한 캐릭터가 1명 이상 있는 경우.",
       "Change role to :serialKiller:s.": "해당 캐릭터의 역할이 :serialKiller:(으)로 바뀝니다.",
+      "ERROR findnig role with id {id}": "오류: id {id}인 역할을 찾을 수 없습니다",
       // de: Kann als in seinem Revier betrachtet werden.
       "May be regarded as in his turf.": "모든 능력에 대해(사건은 제외), 이 캐릭터는 자신의 세력권에 있는 것으로 취급할 수 있습니다.",
       "Reveal the role of the Culprit.": "범인의 역할을 공개합니다.",
@@ -1122,6 +1134,7 @@
       "When this role is to be reveald": "이 역할을 공개해야 할 때",
       ":nightMadness: occurred this day": "오늘 :nightMadness:이(가) 발생한 경우",
       "2 :intrigue: on the :keyPerson:.": ":keyPerson:에 :intrigue:이(가) 2개 이상인 경우.",
+      "Active {goodwillRank} :goodwill:": "능동 [우호{goodwillRank}] :goodwill:",
       // de: Änderungen an den Start-Aktionskarten
       "Changes to Starting Action Cards": "시작 행동 카드 변경 사항",
       // de: Zusatzleiste: Anzahl der Vorfälle
@@ -1131,7 +1144,7 @@
       // de: Der Anführer erhält eine (1×∞) Karte zurück.
       "Leader gets one (1×∞) card back.": "리더는 (1×∞) 카드 1장을 돌려받습니다.",
       "Not everything is cleand up yet.": "아직 모든 부분이 정리된 것은 아닙니다.",
-      "Optional Loss condition: Tragedy": "[선택] 패배 조건: 참극",
+      "Optional Loss condition: Tragedy": "선택 패배 조건: 참극",
       // de: Die Zusatzleiste steht auf 2 oder mehr.
       "The Extra Gauge is on 2 or more.": "특수 게이지가 2 이상인 경우.",
       // de: Die Zusatzleiste steht auf 4 oder mehr.
@@ -1162,6 +1175,7 @@
       // de: Füge 1 :paranoia: zu einem beliebigen Charakter hinzu.
       "Add 1 :paranoia: to any character.": "임의의 캐릭터 1명에 :paranoia: 1개를 추가합니다.",
       "Allow editing missing translations": "누락된 번역 편집 허용",
+      "Restricted to Location: {location}": "제한: {location}",
       // de: Enthülle die Rolle einer beliebigen Leiche.
       "Reveal the role of any one corpse.": "임의의 시체 1구의 역할을 공개합니다.",
       "The current Day is a multiple of 3": "현재 날짜가 3의 배수인 경우",
@@ -1186,9 +1200,11 @@
       "All Characters in School are killed.": "학교에 있는 모든 캐릭터가 사망합니다.",
       // de: Töte einen Charakter am selben Ort.
       "Kill one character in same location.": "동일한 장소에 있는 다른 캐릭터 1명을 사망시킵니다.",
+      "Loops: {numberOfLoops} / difficulty:": "루프: {numberOfLoops} / 난이도:",
       "Place 2 :intrigue: on that Location.": "그 장소에 :intrigue: 2개를 놓습니다.",
       // de: Lege eine Intrige auf einen Ort.
       "Place an :intrigue: on one location.": "장소 한 곳에 :intrigue: 1개를 놓습니다.",
+      "This inculdes Characters like {char}": "{char} 등의 캐릭터가 여기에 포함됩니다",
       "+1 :paranoia: on any other character.": "임의의 다른 캐릭터 1명에 :paranoia: 1개를 추가합니다.",
       // de: Wenn die Spieler in der Lichtwelt sind
       "If the players are in the Light World": "플레이어가 빛의 세계에 있는 경우",
@@ -1220,7 +1236,7 @@
       // de: Ein Charakter am selben Ort stirbt.
       "One charcters in the same location dies.": "동일한 장소에 있는 캐릭터 1명이 사망합니다.",
       // de: Lege einen Fluch auf den Ort des Täters.
-      "Place a curse on the culprit’s location.": "범인이 있는 장소에 저주 1개를 놓습니다.",
+      "Place a curse on the culprit’s location.": "범인이 있는 장소에 저주 카드를 내려놓습니다.",
       "Sessions are hosted semi-regularly here.": "이곳에서 세션이 준정기적으로 열립니다.",
       "The :creature: has at least 5 :intrigue:": ":creature:에 :intrigue:이(가) 5개 이상인 경우",
       // de: Dieser Charakter hat mindestens 1 Intrige.
@@ -1243,7 +1259,7 @@
       "-1 :paranoia: on student in same location.": "동일한 장소에 있는 다른 학생 1명에게서 :paranoia: 1개를 제거합니다.",
       "˝:butterflyEffect:˝ has occured this loop.": "이번 루프 동안 「:butterflyEffect:」이(가) 발생한 적이 있는 경우",
       // de: Verzögerte Niederlage: Charaktertod
-      "Delayed Loss condition: Protagonists Death": "[지연] 패배 조건: 주인공 사망",
+      "Delayed Loss condition: Protagonists Death": "지연 패배 조건: 주인공 사망",
       // de: Bewege diesen Charakter zu einem benachbarten Ort
       "Move this character t an adjacent location": "이 캐릭터를 인접한 장소로 이동시킵니다.",
       // de: Enthülle den Täter und dessen Rolle.
@@ -1257,7 +1273,7 @@
       // de: Mastermind wählt zu Beginn jedes Loops den Startort
       "Mastermind chooses start location each loop": "루프마다 각본가가 시작 장소를 선택합니다.",
       // de: Optionale Niederlage: Charaktertod
-      "Optional Loss condition: Protagonists Death": "[선택] 패배 조건: 주인공 사망",
+      "Optional Loss condition: Protagonists Death": "선택 패배 조건: 주인공 사망",
       "The incident happens at :paranoia: limit -1": "이 사건은 최대 :paranoia: 수치 -1에서 발생합니다.",
       "The Mastermind adds \":despair: +1\" to hand.": "각본가는 「:despair: +1」 카드를 손에 추가합니다.",
       // de: Dieser Charakter stirbt und du löst einen Warp aus.
@@ -1272,11 +1288,11 @@
       "+1 :goodwill: on character in same location.": "동일한 장소에 있는 다른 캐릭터 1명에 :goodwill: 1개를 추가합니다.",
       "1 or more :hope: counters on the Key Person.": "핵심 인물에 :hope: 카운터가 1개 이상인 경우.",
       // de: 6 oder mehr Zombies, wenn dieser Vorfall eintritt.
-      "6 or more zombies when this incident occurs.": "이 사건이 발생할 때 좀비가 6명 이상인 경우.",
+      "6 or more zombies when this incident occurs.": "이 사건이 발생할 때 좀비가 6구 이상인 경우.",
       // de: Ignoriere Gunstverweigerung für diesen Charakter.
       "Ignore Forbid :goodwill: for this character.": "이 캐릭터에 내려놓은 「:goodwill: 금지」 카드를 무시합니다.",
       // de: Verpflichtende Niederlage: Protagonistentod
-      "Mandatory Loss condition: Protagonists Death": "[강제] 패배 조건: 주인공 사망",
+      "Mandatory Loss condition: Protagonists Death": "강제 패배 조건: 주인공 사망",
       // de: Es befinden sich mindestens 2 Intrige auf der Schule.
       "There is at least 2 :intrigue: on the School": "학교에 :intrigue:이(가) 2개 이상인 경우.",
       // de: 4 oder mehr verschiedene Marker auf diesem Charakter
@@ -1346,15 +1362,15 @@
       "Reveal the role of one :student: in this location.": "이 장소에 있는 :student: 1명의 역할을 공개합니다.",
       "The :ninja: (for this plot) must have the tag man.": "(이 룰의) :ninja:은(는) 반드시 남성 태그를 가지고 있어야 합니다.",
       // de: Die Protagonisten sterben nach Tagesende.
-      "The Protagonists will die after the day has ended.": "라운드가 종료된 후, 주인공은 사망합니다.",
+      "The Protagonists will die after the day has ended.": "이번 라운드의 라운드 종료 단계 때 주인공을 사망시킵니다.",
       // de: Dieser Charakter erhält verpflichtende Gunstverweigerung.
       "This Character gains Mandatory :goodwill: Refusel.": "이 캐릭터는 강제 :goodwill: 무시를 얻습니다.",
       "This character gains the abilities of a :deepOne:.": "이 캐릭터는 :deepOne:에 기재된 추가 능력을 얻습니다.",
+      // de: Dieser Charakter muss der Täter eines Vorfalls sein.
+      "This character must be the culprit of an incident.": "이 캐릭터는 반드시 사건의 범인이어야 합니다.",
       "This Character must be the Culprit of an Incident.": "이 캐릭터는 반드시 사건의 범인이어야 합니다.",
       // de: Dieser Charakter muss der Täter eines Vorfalls sein.
       "This character must be the culprit of an Incident.": "이 캐릭터는 반드시 사건의 범인이어야 합니다.",
-      // de: Dieser Charakter muss der Täter eines Vorfalls sein.
-      "This character must be the culprit of an incident.": "이 캐릭터는 반드시 사건의 범인이어야 합니다.",
       // de: Dies ist ein Freizeitprojekt, also ist es nicht perfekt.
       "This is a community project, so it is not perfect.": "이 사이트는 커뮤니티 프로젝트이다 보니 완벽하지는 않습니다.",
       ":lastWill: or :leftBehind: has triggered this loop.": "이번 루프 동안 :lastWill: 또는 :leftBehind:이(가) 발생한 적이 있는 경우.",
